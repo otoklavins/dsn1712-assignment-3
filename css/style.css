@@ -1,4 +1,27 @@
 header {
     background-color: #000;
-    
+    color: #fff;
 }
+
+.wrapper {
+    max-width: 940px;
+    margin: auto;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+   display: flex;
+   list-style: none;
+}
+
+ul li {
+    margin-left: 2em;
+}
+
+
+
